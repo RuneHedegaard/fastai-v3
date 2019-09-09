@@ -1,4 +1,3 @@
-#Rune
 import aiohttp
 import asyncio
 import uvicorn
@@ -10,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1INTSv8a0olf-hFXsRrBWLI32d8lLdKkI'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-WCbAkHh5QtPzJXPV-WVjcCKmKT9dFvM'
 export_file_name = 'export.pkl'
 
 classes = ['keyboard', 'mouse', 'mobile']
