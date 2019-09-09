@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1INTSv8a0olf-hFXsRrBWLI32d8lLdKkI'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['keyboard', 'mouse', 'mobile']
 path = Path(__file__).parent
 
 app = Starlette()
